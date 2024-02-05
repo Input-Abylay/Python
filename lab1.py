@@ -128,8 +128,8 @@ txt = txt.replace('H', 'J')
 
 ex8
 age = 36
-txt = "My name is John, and I am
-{}"
+txt = f"My name is John, and I am
+{age}"
 print(txt.format(age))
 
 
