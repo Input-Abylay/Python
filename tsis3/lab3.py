@@ -11,10 +11,11 @@ my_function()
 ex3
 def my_function(fname, lname):
   print(fname)
-
+my_function(input(), 'lname')
 ex4
 def my_function(x):
      return x+5
+a = y_function(7)
 ex5
 def my_function(*kids):
     print("The youngest child is " + kids[2])

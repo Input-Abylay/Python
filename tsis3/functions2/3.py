@@ -4,6 +4,6 @@ def iscat(movies,ct):
     d = []
     for i in movies:
         if i["category"] == ct:
-            d.append(i)
+            d.append(i['name'])
     return d
 print(iscat(movies,input()))
