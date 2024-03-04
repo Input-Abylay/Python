@@ -17,10 +17,10 @@
 # cr = datetime.datetime.now()
 # print(cr.replace(microsecond=0))
 
-# # ex4
-# from datetime import datetime
-# date1 = datetime(2024, 2, 10)
-# date2 = datetime(2024, 2, 14)
-#
-# print((date2 - date1).total_seconds())
+# ex4
+from datetime import datetime
+date1 = datetime(2024, 2, 10)
+date2 = datetime(2024, 2, 14)
+
+print((date2 - date1).total_seconds())
 
