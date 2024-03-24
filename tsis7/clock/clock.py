@@ -11,12 +11,12 @@ def main():
     curr_sec = curr_time.second
     curr_min = curr_time.minute
 
-    clock_image = pygame.transform.scale(pygame.image.load('TSIS_7/clock/images/mickeyclock.png'), (800, 600))
-    sechand_image = pygame.image.load('TSIS_7/clock/images/sechand.png')
+    clock_image = pygame.transform.scale(pygame.image.load('tsis7/clock/mickeyclock.jpeg'), (800, 600))
+    sechand_image = pygame.image.load('tsis7/clock/sechand.png')
     sechand_image = pygame.transform.scale(sechand_image, (250, 75))
     sechand_rect = sechand_image.get_rect()
     sechand_rect.center = (400, 300)
-    minhand_image = pygame.image.load('TSIS_7/clock/images/minhand.png')
+    minhand_image = pygame.image.load('tsis7/clock/minhand.png')
     minhand_image = pygame.transform.scale(minhand_image, (200, 50))
     minhand_rect = minhand_image.get_rect()
     minhand_rect.center = (400, 300)
