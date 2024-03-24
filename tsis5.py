@@ -12,17 +12,24 @@
 
 # # ex2
 # import re
-# def a_2to3(txt):
-#     pattern = 'ab[2,3]'
-#     if re.search(pattern, txt):
-#         return "'a' followed by two to three 'b'"
+
+
+# def match_ab_pattern(text):
+#     pattern = r'ab{2,3}'
+
+#     if re.search(pattern, text):
+#         return "Match found"
 #     else:
-#         return 'no'
-# print(a_2to3(input()))
+#         return "Match not found"
+
+
+# text = input()
+# result = match_ab_pattern(text)
+# print(result)
 
 # # ex3
 # import re
-#
+
 # def underscore(text):
 #     pattern = r'[a-z]+_[a-z]+'
 #     matches = re.findall(pattern, text)
@@ -54,7 +61,7 @@
 
 # # ex6
 # import re
-#
+
 # def replace_with_colon(text):
 #     return re.sub(r'[ ,.]', ':', text)
 # text = input()
@@ -71,17 +78,17 @@
 
 # # ex8
 # import re
-#
+
 # def split_at_uppercase(s):
 #     return re.findall(r'[A-Z][^A-Z]*', s)
-#
+
 # # Example usage
 # test_str = "SplitAtUpperCaseLettersInThisString"
 # print(split_at_uppercase(test_str))
 
 # # ex9
 # import re
-#
+
 # def insert_spaces(s):
 #     return re.sub(r'([a-z])([A-Z])', r'\1 \2', s)
 # test_str = "InsertSpacesBetweenCapitalizedWordsLikeThis"
@@ -89,7 +96,7 @@
 
 # # ex10
 # import re
-#
+
 # def camel_to_snake(camel_str):
 #     snake_str = re.sub(r'(?<=[a-z])([A-Z])', r'_\1', camel_str)
 #     return snake_str.lower()

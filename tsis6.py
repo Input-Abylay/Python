@@ -49,9 +49,9 @@
 
 # Python Directories and Files exercises
 
-# #ex1
+#ex1
 # import os
-#
+
 # def list_directories(path):
 #     try:
 #         directories = [d for d in os.listdir(path) if os.path.isdir(os.path.join(path, d))]
@@ -60,7 +60,7 @@
 #             print(directory)
 #     except FileNotFoundError:
 #         print("The specified path does not exist.")
-#
+
 # def list_files(path):
 #     try:
 #         files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
@@ -69,7 +69,7 @@
 #             print(file)
 #     except FileNotFoundError:
 #         print("The specified path does not exist.")
-#
+
 # def list_all(path):
 #     try:
 #         entries = os.listdir(path)
@@ -78,16 +78,16 @@
 #             print(entry)
 #     except FileNotFoundError:
 #         print("The specified path does not exist.")
-#
-# # Example usage:
+
+
 # path = input("Enter the path to list contents: ")
-#
+
 # print("\nListing only directories:")
 # list_directories(path)
-#
+
 # print("\nListing only files:")
 # list_files(path)
-#
+
 # print("\nListing all directories and files:")
 # list_all(path)
 
